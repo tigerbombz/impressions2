@@ -7,7 +7,7 @@
 .navbar {
   display: inline-block;
   width: 100%;
-  border-bottom: 1px solid black;
+  /*border-bottom: 1px solid black;*/
 }
 
 .navbar h1{
@@ -31,11 +31,11 @@
 .nav-right a{
   margin-right: 10px;
   text-decoration: none;
-  color: gray;
+  color: black;
 }
 
 .active {
-  color: purple;
+  color: white;
 }
 
 
