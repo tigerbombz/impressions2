@@ -32,7 +32,7 @@ const Contact = () => {
                   <i className="fa fa-yelp fa-3x" aria-hidden="true"></i>
                 </div>
                 <h5>Yelp</h5>
-                <a href="https://www.yelp.com/biz/impressions-hair-design-san-jose">Impressions Hair Design</a>
+                <a className='link col-md-12 col-xs-12' href="https://www.yelp.com/biz/impressions-hair-design-san-jose">Impressions Hair Design</a>
               </div>
             </li>
           </ul>
