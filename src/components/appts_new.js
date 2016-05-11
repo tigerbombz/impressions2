@@ -23,10 +23,9 @@ class ApptsNew extends Component {
 
 
     return (
-      <div className='appt-container'>
+      <div className='appt-container col-md-6 offset-md-3'>
         <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
           <h3>Contact Information</h3>
-
           <div className={`form-group col-md-6 ${name.touched && name.invalid ? 'has-danger' : ''}`}>
             <label>Name</label>
             <input type='text' className='form-control' placeholder='First & Last' {...name} />
@@ -37,7 +36,7 @@ class ApptsNew extends Component {
 
           <div className={`form-group col-md-6 ${phone.touched && phone.invalid ? 'has-danger' : ''}`}>
             <label>Phone</label>
-            <input type='text' className='form-control' placeholder='(555) 555-5555' {...phone} />
+            <input type='tel' className='form-control' placeholder='(555) 555-5555' {...phone} />
             </div>
             <div className='text-help'>
               {phone.touched ? phone.error : ''}
