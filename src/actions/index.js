@@ -20,6 +20,7 @@ export function fetchAppts() {
 export function createAppt(props) {
   const request = axios.post(`${ROOT_URL}/posts${API_KEY}`, props);
 
+console.log(request);
   return {
     type: CREATE_APPT,
     payload: request
