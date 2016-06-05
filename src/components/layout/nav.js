@@ -12,7 +12,6 @@ export default class Nav extends Component {
             <li><Link to='contact' activeStyle='active'>Contact</Link></li>
             <li><Link to='about-us' activeClassName='active'>About Us</Link></li>
             <li><Link to='book-online' activeClassName='active'>Book-Online</Link></li>
-            <li><Link to='services' activeClassName='active'>Services</Link></li>
             <li><Link to='/'>Home</Link></li>
           </ul>
         </div>

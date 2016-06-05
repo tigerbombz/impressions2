@@ -61,6 +61,8 @@ const Services = () => {
               <p>Microdermabrasion - $70</p>
               <p>Facial - $60 & up</p>
             </div>
+            <hr />
+            <p> *TBD - To Be Discussed </p>
         </div>
       </div>
     </div>

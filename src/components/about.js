@@ -1,15 +1,25 @@
 import React from 'react';
 import { Component } from 'react';
 
-const tina = require('../images/tina.png');
+const tina = require('../images/tina1.jpg');
 const michelle = require('../images/michelle.png');
-
+const tina_michelle = require('../images/tina_michelle.png');
 
 export default class About extends Component {
   render() {
     return (
       <div>
         <div className='about_container'>
+          <div className='row about_row'>
+            <div className='about_pic col-md-4 offset-md-1 col-xs-12'>
+              <img src={tina_michelle} />
+            </div>
+            <div className='michelle col-md-7 col-xs-12'>
+              <h3>IMPRESSION HAIR DESIGN SALON BUSINESS</h3>
+              <p>Master colorist Tina Nguyen and master stylist Michelle Nguyen are authorities in the world of hair care. Their unrivaled expertise sets trends and has defined beauty across the bay.</p>
+            </div>
+          </div>
+
           <div className='row about_row'>
             <div className='tina col-md-7 col-xs-12'>
               <h3>TINA LE, MASTER STYLIST & FOUNDER</h3>
@@ -19,12 +29,13 @@ export default class About extends Component {
                 The salon boasts regulars from children to elders, both male and female.  Her team and staff come from multiple ethnicities being able to serve their customer in their native tongue.
               </p>
             </div>
-            <div className='about_pic col-md-5 col-xs-12'>
+            <div className='about_pic col-md-4 col-xs-12'>
               <img src={tina} />
             </div>
           </div>
+
           <div className='row about_row'>
-            <div className='about_pic col-md-5 col-xs-12'>
+            <div className='about_pic col-md-4 offset-md-1 col-xs-12'>
               <img src={michelle} />
             </div>
             <div className='michelle col-md-7 col-xs-12'>

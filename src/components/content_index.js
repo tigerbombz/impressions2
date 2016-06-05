@@ -11,7 +11,7 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
-        <div className='main_div'>
+        <div className='main_div '>
           <img src={store1} alt='main'className='main' />
         </div>
         <div className='quote'>
@@ -21,19 +21,19 @@ class ContentIndex extends Component {
         </div>
         <div className='image_container'>
           <div className='box col-md-3 col-sm-3'>
-            <img src={'http://absolutbusinessbrokers.com.au/wp-content/uploads/2015/03/hair-salon-business-fro-sale-B11983.jpg'} style={{width: 340, height: 250}} />
+            <Link to='services'><img src={'http://absolutbusinessbrokers.com.au/wp-content/uploads/2015/03/hair-salon-business-fro-sale-B11983.jpg'} style={{width: 340, height: 250}} /></Link>
             <label> Hair Color </label>
           </div>
           <div className='box col-md-3 col-sm-3'>
-            <img src={'http://arsengurgov.com/wp-content/uploads/2016/02/dry-hair-cut-Arsen-Gurgov-NYC-Hairstylist-.jpg'} style={{width: 340, height: 250}} />
+            <Link to='services'><img src={'http://arsengurgov.com/wp-content/uploads/2016/02/dry-hair-cut-Arsen-Gurgov-NYC-Hairstylist-.jpg'} style={{width: 340, height: 250}} /></Link>
             <label> Haircut & Style </label>
           </div>
           <div className='box col-md-3 col-sm-3'>
-            <img src={'http://im.hunt.in/cg/panipat/City-Guide/beauty-parlour-1.jpg'} style={{width: 340, height: 250}} />
+            <Link to='services'><img src={'http://im.hunt.in/cg/panipat/City-Guide/beauty-parlour-1.jpg'} style={{width: 340, height: 250}} /></Link>
             <label> Beauty Service </label>
           </div>
           <div className='box col-md-3 col-sm-3'>
-            <img src={'http://providenceplacebridal.com/wp-content/uploads/2015/04/wedding-hair-2.jpg'} style={{width: 340, height: 250}} />
+            <Link to='services'><img src={'http://providenceplacebridal.com/wp-content/uploads/2015/04/wedding-hair-2.jpg'} style={{width: 340, height: 250}} /></Link>
             <label> Bridal</label>
           </div>
 
