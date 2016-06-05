@@ -217,3 +217,20 @@ form a{
 .google_map h2{
   font-family: 'Josefin Sans', sans-serif;
 }
+
+/*SERVICES*/
+.service h2{
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.service p{
+  color: gray;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.serviceContent{
+  margin-left: 30px;
+
+}

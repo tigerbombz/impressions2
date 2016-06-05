@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { fetchAppts } from '../actions/index'
 import { Link } from 'react-router';
 
-const store1 = require('../images/store1.png')
+const store1 = require('../images/store1.jpg')
 
 
 class ContentIndex extends Component {
@@ -47,7 +47,7 @@ class ContentIndex extends Component {
 export default connect(null, { fetchAppts })(ContentIndex);
 
 
-//BOOTSTRAP CAROUSEL --> CONTINUTE LATER
+// BOOTSTRAP CAROUSEL --> CONTINUTE LATER
 // const tina = require('../images/tina.png');
 // const michelle = require('../images/michelle.png');
 
@@ -64,15 +64,15 @@ export default connect(null, { fetchAppts })(ContentIndex);
 //           </ol>
 //           <div className='carousel-inner'>
 
-//             <div className='item active'>
-//               <img src={tina} className='img-responsive' height={500} width={900} />
-//             </div>
-
-//             <div className='item'>
-//               <img src={michelle} className='img-responsive' height={500} width={900} />
-//             </div>
-
+//           <div className='item active'>
+//             <img src={tina} className='img-responsive' height={500} width={900} />
 //           </div>
+
+//           <div className='item'>
+//             <img src={michelle} className='img-responsive' height={500} width={900} />
+//           </div>
+
+//         </div>
 
 //           <a className='carousel-control left' href='#myCarousel' data-slide ='prev'>
 //             <span className='icon-prev'></span>
