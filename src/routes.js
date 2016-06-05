@@ -5,6 +5,7 @@ import ContentIndex from './components/content_index';
 import ApptsNew from './components/appts_new'
 import About from './components/about';
 import Contact from './components/contact';
+import Services from './components/services';
 
 export default(
   <Route path='/' component={App}>
@@ -12,5 +13,6 @@ export default(
     <Route path='book-online' component={ApptsNew} />
     <Route path='about-us' component={About} />
     <Route path='contact' component={Contact} />
+    <Route path='services' component={Services} />
   </Route>
 );

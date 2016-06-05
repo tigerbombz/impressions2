@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <footer>
         <div className='row col-lg-12'>
-          <p>Copyright &copy; Impression's Hair Design 2016</p>
+          <p>&copy; Impression's Hair Design 2016</p>
         </div>
       </footer>
     );

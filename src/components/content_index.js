@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { fetchAppts } from '../actions/index'
 import { Link } from 'react-router';
 
+const store1 = require('../images/store1.png')
 
 
 class ContentIndex extends Component {
@@ -11,7 +12,7 @@ class ContentIndex extends Component {
     return (
       <div>
         <div className='main_div'>
-          <img src={'https://www.salonpricelady.com/wp-content/uploads/2016/02/hair-salon-inside.jpg'} alt='main'className='main' />
+          <img src={store1} alt='main'className='main' />
         </div>
         <div className='quote'>
           <span className='words'>
@@ -44,3 +45,44 @@ class ContentIndex extends Component {
 }
 
 export default connect(null, { fetchAppts })(ContentIndex);
+
+
+//BOOTSTRAP CAROUSEL --> CONTINUTE LATER
+// const tina = require('../images/tina.png');
+// const michelle = require('../images/michelle.png');
+
+
+// export default class Services extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <div id='myCarousel' className  ='carousel slide'>
+//           <ol className='carousel-indicators'>
+//             <li data-target ='#myCarousel' data-slide-to='0' className='active'></li>
+//             <li data-target ='#myCarousel' data-slide-to='1'></li>
+//             <li data-target ='#myCarousel' data-slide-to='2'></li>
+//           </ol>
+//           <div className='carousel-inner'>
+
+//             <div className='item active'>
+//               <img src={tina} className='img-responsive' height={500} width={900} />
+//             </div>
+
+//             <div className='item'>
+//               <img src={michelle} className='img-responsive' height={500} width={900} />
+//             </div>
+
+//           </div>
+
+//           <a className='carousel-control left' href='#myCarousel' data-slide ='prev'>
+//             <span className='icon-prev'></span>
+//           </a>
+//           <a className='carousel-control right' href='#myCarousel' data-slide ='next'>
+//             <span className='icon-next'></span>
+//           </a>
+
+//         </div>
+//       </div>
+//     )
+//   }
+// }
