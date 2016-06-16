@@ -6,6 +6,7 @@ import ApptsNew from './components/appts_new'
 import About from './components/about';
 import Contact from './components/contact';
 import Services from './components/services';
+import Carousel from './components/carousel';
 
 export default(
   <Route path='/' component={App}>
@@ -14,5 +15,6 @@ export default(
     <Route path='about-us' component={About} />
     <Route path='contact' component={Contact} />
     <Route path='services' component={Services} />
+    <Route path='carousel' component={Carousel} />
   </Route>
 );

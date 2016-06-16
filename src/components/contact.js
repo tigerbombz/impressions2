@@ -6,7 +6,7 @@ const Contact = () => {
       <div className='container'>
         <div className='row contact_row col-md-12 col-xs-12'>
           <h1>CONTACT US</h1>
-          <p>We are happy to answer any questions you have so please feel free to reach out to us for your haircare needs.</p>
+          <p>For appointments and any inquries you have please feel free to reach out to us for your haircare needs.</p>
           <ul className='contactIcons col-md-12 col-xs-12'>
             <li className='listIcons'>
               <div className='eachIcon'>
