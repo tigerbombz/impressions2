@@ -12,7 +12,7 @@ class ContentIndex extends Component {
   render() {
     return (
       <div>
-        <div className='main_div '>
+        <div className='main_div'>
           <CarouselInstance />
         </div>
         <div className='quote'>
