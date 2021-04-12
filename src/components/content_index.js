@@ -11,7 +11,7 @@ class ContentIndex extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main_container">
         <div className='main_div'>
           <CarouselInstance />
         </div>
@@ -21,13 +21,14 @@ class ContentIndex extends Component {
           </span>
         </div>
         <div className='image_container'>
+
           <div className='box col-md-3 col-sm-3'>
             <Link to='services'><img src={'http://absolutbusinessbrokers.com.au/wp-content/uploads/2015/03/hair-salon-business-fro-sale-B11983.jpg'} style={{width: 340, height: 250}} /></Link>
             <Link to='services'><label> Hair Color </label></Link>
 
           </div>
           <div className='box col-md-3 col-sm-3'>
-            <Link to='services'><img src={'http://arsengurgov.com/wp-content/uploads/2016/02/dry-hair-cut-Arsen-Gurgov-NYC-Hairstylist-.jpg'} style={{width: 340, height: 250}} /></Link>
+            <Link to='services'><img src={'https://www.hairstylezonex.com/wp-content/uploads/2020/09/Trendy-Inverted-Bob-Haircuts-for-Women-in-2021-06.jpg'} style={{width: 340, height: 250}} /></Link>
             <Link to='services'><label> Haircut & Style </label></Link>
           </div>
           <div className='box col-md-3 col-sm-3'>
@@ -38,9 +39,8 @@ class ContentIndex extends Component {
             <Link to='services'><img src={'http://providenceplacebridal.com/wp-content/uploads/2015/04/wedding-hair-2.jpg'} style={{width: 340, height: 250}} /></Link>
             <Link to='services'><label> Bridal</label></Link>
           </div>
-
+          
         </div>
-
       </div>
     );
   }

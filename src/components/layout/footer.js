@@ -1,15 +1,23 @@
 import React from 'react';
 import { Component } from 'react';
 
-export default class Footer extends Component {
+class Footer extends Component {
+  constructor(props){
+    super(props);
+  }
+
   render() {
+    let date = new Date();
+    let year = date.getFullYear();
+    console.log(year);
     return (
       <footer>
         <div className='row col-lg-12'>
-          <p>&copy; Impression's Hair Design 2016</p>
+          <p>&copy; Impression's Hair Design {year} </p>
         </div>
       </footer>
     );
   }
 }
 
+export default Footer;
