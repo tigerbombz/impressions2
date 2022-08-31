@@ -23,7 +23,7 @@ class ContentIndex extends Component {
         <div className='image_container'>
 
           <div className='box col-md-3 col-sm-3'>
-            <Link to='services'><img src={'http://absolutbusinessbrokers.com.au/wp-content/uploads/2015/03/hair-salon-business-fro-sale-B11983.jpg'} style={{width: 340, height: 250}} /></Link>
+            <Link to='services'><img src={'https://stylesatlife.com/wp-content/uploads/2019/11/Hairstyles-for-Girls-17.jpg.webp'} style={{width: 340, height: 250}} /></Link>
             <Link to='services'><label> Hair Color </label></Link>
 
           </div>

@@ -48,7 +48,7 @@ const Services = () => {
             <hr />
           <h2>SPECIALTIES</h2>
             <div className='serviceContent'>
-              <p>Men's Package (includes Hair cut, hot towel, shampoo, & facial exfoliation) - $40 & up</p>
+              <p>Men's Package (includes Hair curlt, hot towel, shampoo, & facial exfoliation) - $40 & up</p>
               <p>Make-up - $55 & up</p>
               <p>Bridal Services - TBD</p>
               <p>Eyelash Extensions - TBD</p>
